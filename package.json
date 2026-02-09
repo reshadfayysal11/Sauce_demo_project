@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-playwright-allure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SauceDemo automation using Playwright, POM, and Allure reports",
+
+  "scripts": {
+    "test:q1": "npx playwright test --grep @q1 && npm run allure:generate",
+    "test:q2": "npx playwright test --grep @q2 && npm run allure:generate",
+    "test:q3": "npx playwright test --grep @q3 && npm run allure:generate",
+
+    "test:all": "npx playwright test --grep \"@q1|@q2|@q3\" && npm run allure:generate",
+
+    "allure:generate": "npx allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "npx allure open ./allure-report",
+
+    "install:browsers": "npx playwright install --with-deps"
+  },
+
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5"
+  }
+}

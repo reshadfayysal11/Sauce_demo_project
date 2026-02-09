@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14580","Q3 [Mark 30] performance_glitch_user reset, sort Z->A, add first, checkout verify names+total, finish, reset, logout @q3","","2026-02-07","passed","2026-02-07","SauceDemo - Q scenarios (sequential)","example.spec.js","",""
+"","3849","Q1 - locked_out_user should see lockout error @q1 @q","","2026-02-09","passed","2026-02-09","SauceDemo scenarios (Q1-Q3)","example.spec.js","",""
+"","3811","Q1 [Mark 20] locked_out_user shows error message @q1","","2026-02-07","passed","2026-02-07","SauceDemo - Q scenarios (sequential)","example.spec.js","",""
+"","4664","Q2 - standard_user reset, add 3 items, checkout, verify, finish, reset, logout @q2 @q","","2026-02-09","passed","2026-02-09","SauceDemo scenarios (Q1-Q3)","example.spec.js","",""
+"","4636","Q2 [Mark 50] standard_user reset, add 3 items, checkout verify, finish, reset, logout @q2","","2026-02-07","passed","2026-02-07","SauceDemo - Q scenarios (sequential)","example.spec.js","",""
+"","14669","Q3 - glitch user reset, sort Z->A, add first, checkout verify, finish, reset, logout @q3 @q","","2026-02-09","passed","2026-02-09","SauceDemo scenarios (Q1-Q3)","example.spec.js","",""
