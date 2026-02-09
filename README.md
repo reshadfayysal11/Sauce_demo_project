@@ -102,13 +102,15 @@ package.json: Manages project dependencies.
 
 Playwright Test Report: 
 
- 
+ <img width="1434" height="518" alt="Screenshot 2026-02-09 121552" src="https://github.com/user-attachments/assets/d619228b-cedf-4316-9484-310c555cdd51" />
+
 
  
 
 Allure Report: 
 
  
+<img width="1046" height="659" alt="Screenshot 2026-02-09 121945" src="https://github.com/user-attachments/assets/440e2ee9-d61f-47ab-bd01-29f3d2d7af77" />
 
  
 
